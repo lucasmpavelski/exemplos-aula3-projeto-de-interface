@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplos</title>
+    
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="titulo">Exemplos da aula</h1>
+
+    <h2>Links</h2>
+    
+    <ul>
+        <li><a href="https://www.google.com">Navegar para o google</a></li>
+        <li><a href="https://www.google.com" target="_blank" rel="external">Abrir google em nova aba</a></li>
+        <li><a href="postagens/css_inline.html">Navegar para o arquivo postagens/css_inline.html</a></li>
+        <li><a href="../index.html">Navegar para o arquivo index.html da pasta anterior</a></li>
+        <li><a href="#titulo">Navegar para o elemento com id titulo</a></li>
+    </ul>
+
+    <h2>Tags depreciadas</h2>
+
+    <marquee>Efeito marquise</marquee>
+    <blink>Efeito blink</blink>
+
+    <h2>Imagens</h2>
+
+    <p>A tag img tem atributos src com o caminho da imagem e alt com o texto alternativo:</p>
+
+    <img src="https://live.staticflickr.com/3373/3600836516_ab924c6729_n.jpg" alt="Imagem de um cachorro na internet">
+
+    <img src="dog.jpg" alt="Imagem de um cachorro de um arquivo no computador">
+
+    <img src="https://live.staticflickr.com/3373/360086516_ab924c6729_n.jpg" alt="Imagem não encontrada">
+
+    <figure>
+        <img src="https://live.staticflickr.com/3546/3353936487_2599d7b8dc_n.jpg" alt="Exemplo de imagem com tag figure">
+        <figcaption>Legenda da figura.</figcaption>
+    </figure>
+
+    <h2>Tabelas</h2>
+
+    <p>tr é uma linha da tabela, th é o título da linha ou coluna (depende do scope) e td é uma célula com dado da tabela.</p>
+
+    <table>
+        <tr>
+            <th scope="col">Título da coluna 1</th>
+            <th scope="col">Título da coluna 2</th>
+            <th scope="col">Título da coluna 3</th>
+        </tr>
+        <tr>
+            <th scope="row">Título da linha 1</th>
+            <td>Célula da linha 1, coluna 2</td>
+            <td>Célula da linha 1, coluna 3</td>
+        </tr>
+        <tr>
+            <th scope="row">Título da linha 2</th>
+            <td>Célula da linha 2, coluna 2</td>
+            <td>Célula da linha 2, coluna 3</td>
+        </tr>
+    </table>
+
+    <p>No formato mais longo, identificamos o cabeçalho, corpo e rodapé da tabela:</p>
+
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Título da coluna 1</th>
+                <th scope="col">Título da coluna 2</th>
+                <th scope="col">Título da coluna 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Título da linha 1</th>
+                <td>Célula da linha 1, coluna 2</td>
+                <td>Célula da linha 1, coluna 3</td>
+            </tr>
+            <tr>
+                <th scope="row">Título da linha 2</th>
+                <td>Célula da linha 2, coluna 2</td>
+                <td>Célula da linha 2, coluna 3</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Título do rodapé</th>
+                <td>Célula do rodapé, coluna 2</td>
+                <td>Célula do rodapé, coluna 3</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <p>Para mesclar células utilizamos rowspan e colspan:</p>
+
+    <table>
+        <tr>
+            <td colspan="3">Linha 1, coluna 1, 2 e 3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Linha 2 e 3, coluna 1</td>
+            <td>Coluna 2, linha 2</td>
+            <td>Coluna 3, linha 2</td>
+        </tr>
+        <tr>
+            <td colspan="2">Linha 3, coluna 2 e 3</td>
+        </tr>
+    </table>
+
+    <h2>Aplicando estilos</h2>
+
+    <ul>
+        <li><a href="exemplos-css/inline.html">Estilos inline</a></li>
+        <li><a href="exemplos-css/tag-style.html">Estilos tag style</a></li>
+        <li><a href="exemplos-css/css-separado.html">Estilos arquivo CSS</a></li>
+    </ul>
+
+</body>
+</html>

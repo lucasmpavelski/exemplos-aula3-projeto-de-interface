@@ -1,0 +1,17 @@
+body {
+    background-color: antiquewhite;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: ghostwhite;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
